@@ -62,3 +62,29 @@ object Contravariance extends App
   printnewCar(showcar)
   printnewCar(showvehicle)
 }
+
+//class Parent
+//class Child extends Parent
+//
+//object test2  {
+//  val myAnimals: List[Parent] = List[Child]
+//}
+//
+//
+//class Animal
+//class Dog extends Animal
+//
+//class MyList[-T]
+//
+//object test  {
+//  val myAnimals: MyList[Dog] = new MyList[Animal]
+//}
+//
+
+// Covariant
+// Child -> Parent
+// List[Child] -> List[Parent]
+
+//Contravariant
+//Child -> Parent
+// MyList[Parent] -> MyList[Child]
